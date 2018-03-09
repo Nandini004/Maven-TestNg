@@ -1,0 +1,11 @@
+<h2>{{ hero.name | uppercase }} is {{hero.age}} years old.</h2>
+<div><span>id: </span>{{hero.id}}</div>
+<div>
+    <label>Name:
+      <input [(ngModel)]="hero.name" placeholder="name">
+    </label>
+
+    <label>Age:
+      <input [(ngModel)]="hero.age" placeholder="Age">
+    </label>
+</div>
